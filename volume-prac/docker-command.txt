@@ -1,0 +1,7 @@
+    3  docker ps -a
+    4  docker volume ls
+    5  docker image ls
+    6  docker ps -a
+    7  docker stop named-volume
+    8  docker image ls
+    9  docker run -dp 3000:80 --name named-volume-test --rm -v feedback:/app/feedback volume-test:named
